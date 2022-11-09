@@ -1,0 +1,36 @@
+.keys {
+  /* width: 100%; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.key {
+  width: 150px;
+  text-align: center;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.shake {
+  animation: shake 0.05s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+.playing {
+  font-size: 150px;
+}
