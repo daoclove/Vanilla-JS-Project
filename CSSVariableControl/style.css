@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bg-color: #000;
+  --bg-width: 10px;
+  --bg-height: 10px;
+}
+.bg {
+  width: var(--bg-width);
+  height: var(--bg-height);
+  background-color: var(--bg-color);
+  margin: 100px auto;
+}
+.box {
+  margin: 50px auto;
+  width: 500px;
+}
+#input-color {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
